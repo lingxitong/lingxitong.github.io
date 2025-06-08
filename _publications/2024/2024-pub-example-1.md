@@ -1,6 +1,6 @@
 ---
 title:          Agent Aggregator with Mask Denoise Mechanism for Histopathology Whole Slide Image Analysis
-date:           2024-09-18
+date:           2024-09-18 00:01:00 +0800
 selected:       true
 pub:            "ACM-MM 2024"
 # pub_pre:        "Submitted to "
@@ -13,17 +13,12 @@ abstract: >-
   
 cover:          assets/images/covers/lcfm_lc.png
 authors:
-  - Xitong Ling*
-  - Minxi Ouyang*
-  - Yizhi Wang
-  - Xinrui Chen
-  - Renao Yan
-  - Junru Cheng
-  - Tian Guan
-  - Sufang Tian
-  - Xiaoping Liu†
-  - Yonghong He†
+  - Qimin Yang
+  - Rongsheng Wang
+  - Jiexin Chen
+  - Runqi Su
+  - Tao Tan†
 links:
-  Paper: https://dl.acm.org/doi/pdf/10.1145/3664647.3681425
-  Poster: https://github.com/lingxitong/MIL_BASELINE
+  Paper: https://arxiv.org/abs/2407.11536
+  Poster: assets/images/poster/icml2024-ws.jpeg
 ---
