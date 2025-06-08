@@ -13,7 +13,7 @@ abstract: >-
 
 
   
-cover:          assets/images/covers/amd_mil.png
+cover:         assets/images/covers/amd_mil.png
 authors:
   - Xitong Ling*
   - Minxi Ouyang*  
