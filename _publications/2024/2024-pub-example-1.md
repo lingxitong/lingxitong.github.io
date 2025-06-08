@@ -5,7 +5,7 @@ selected:       true
 pub:            "ACM-MM 2024"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-# pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Conference</span><span class="badge badge-pill badge-custom badge-warning">Poster</span>'
+pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Conference</span><span class="badge badge-pill badge-custom badge-warning">Poster</span>'
 pub_date:       "2024"
 
 abstract: >-
@@ -25,5 +25,5 @@ authors:
   - Yonghong He†
 links:
   Paper: https://dl.acm.org/doi/pdf/10.1145/3664647.3681425
-  Code: https://github.com/lingxitong/MIL_BASELINE
+  Poster: https://github.com/lingxitong/MIL_BASELINE
 ---
