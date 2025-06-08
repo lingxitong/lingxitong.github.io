@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Xitong Ling's Home Page"
 
 positions:
-  - '<span class="no-break"><img src="assets/images/badges/mpu_master.png" alt="Macao Polytechnic University" class="inline-badge"/></span> M.S., Macao Polytechnic University (2024)'
+  - '<span class="no-break"><img src="assets/images/badges/thu_logo.jpg" alt="Tsinghua University" class="inline-badge"/></span> M.S., Tsinghua University'
 
 email: "lingxt23@mails.tsinghua.edu.cn"
 gscholar: 5lNlpagAAAAJ&hl=en
@@ -37,7 +37,7 @@ education:
   position: B.S. Aeronautical and Astronautical Science and Technology
   date: Sep. 2019 - Jul. 2023
   
-# experience:
+experience:
 # - name: CUHK (SZ)
 #   logo: assets/images/badges/cuhk-sz.png
 #   position: Research Assistant (Supervisor is <a href="https://wabyking.github.io/old.html">Benyou Wang</a>)
