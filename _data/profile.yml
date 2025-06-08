@@ -29,11 +29,11 @@ portrait_caption: >-
 
 education:
 - name: Tsinghua University
-  logo: assets/images/badges/mpu_master.png
+  logo: assets/images/badges/thu_logo.jpg
   position: M.S. 
   date: Sep. 2023 - Jul. 2026
 - name: Beihang University
-  logo: assets/images/badges/hpu_bs.png
+  logo: assets/images/badges/buaa_logo.jpg
   position: B.S
   date: Sep. 2019 - Jul. 2023
   
