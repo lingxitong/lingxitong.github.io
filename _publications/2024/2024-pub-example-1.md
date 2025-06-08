@@ -2,7 +2,7 @@
 title:          Agent Aggregator with Mask Denoise Mechanism for Histopathology Whole Slide Image Analysis
 date:           2024-09-18 00:01:00 +0800
 selected:       true
-pub:            "Long-Context Foundation Models (LCFM) at ACM-MM 2024"
+pub:            "ACM-MM 2024"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Conference</span><span class="badge badge-pill badge-custom badge-warning">Poster</span>'
