@@ -3,8 +3,8 @@ secondary_name: ""
 navbar_name: "Xitong Ling's Home Page"
 
 positions:
-  - name: Tsinghua University
-    logo: assets/images/badges/thu_logo.jpg
+- name: Tsinghua University
+  logo: assets/images/badges/thu_logo.jpg
 
 email: "lingxt23@mails.tsinghua.edu.cn"
 gscholar: 5lNlpagAAAAJ&hl=en
