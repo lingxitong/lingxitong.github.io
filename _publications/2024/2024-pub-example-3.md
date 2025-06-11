@@ -1,28 +1,27 @@
 ---
-title:          MergeUp-augmented Semi-Weakly Supervised Learning for WSI Classification
-date:           2024-08-23 00:01:00 +0800
+title:          Towards a comprehensive benchmark for pathological lymph node metastasis in breast cancer sections
+date:           2024-11-16 00:01:00 +0800
 selected:       true
 pub:            "Arxiv"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-# pub_last:       ' <span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
-pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Conference</span>'
+pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Conference</span><span class="badge badge-pill badge-custom badge-success">Oral</span>'
 pub_date:       "2024"
 
 abstract: >-
-  Recent progress in computational pathology and AI has enhanced WSI classification. However, the high resolution of WSIs and limited manual annotations pose challenges. MIL is a promising weakly supervised learning method for WSI classification. Research shows that pseudo bag augmentation can improve model performance by encouraging diverse data learning. Yet, directly using parent labels can introduce noise through mislabeling. To address this, we introduce SWS-MIL, which uses adaptive pseudo bag augmentation (AdaPse) to label data based on a threshold strategy. Additionally, we employ a "student-teacher" pattern with MergeUp, a feature augmentation technique that merges low-priority bags to enhance inter-category information and data diversity. Experiments on CAMELYON-16, BRACS, and TCGA-LUNG datasets demonstrate that our method outperforms current state-of-the-art approaches, confirming its effectiveness in WSI classification.
+  Optical microscopy advancements have enabled whole slide imaging (WSI), facilitating AI-powered computational pathology (CPath). The Camelyon datasets are widely used benchmarks, yet label quality and clinical relevance remain underexplored. In this study, we reprocessed 1,399 WSIs from Camelyon-16 and -17, removing low-quality slides, correcting labels, and adding expert annotations to the test set. We refined the binary cancer task into a four-class classification: negative, ITC, micro-, and macro-metastasis. Using this cleaned dataset, we re-evaluated foundational models and MIL methods, offering a stronger benchmark for AI in histopathology.
   
-cover:          assets/images/covers/SWS_MIL.png
+cover:          assets/images/covers/camelyon+.png
 authors:
-  - Mingxi Ouyang*
-  - Yuqiu Fu*
-  - Renao Yan*
-  - ShanShan Shi
-  - Xitong Ling
-  - Lianghui Zhu†
+  - Xitong Ling*
+  - Yuanyuan Lei*
+  - Jiawen Li*
+  - Junru Cheng
+  - Wenting Huang
+  - Tian Guan
+  - Jian Guan†
   - Yonghong He†
-  - Tian Guan†
 links:
-  Paper: https://arxiv.org/pdf/2408.12825
-
+  Paper: https://arxiv.org/pdf/2411.10752
+  Code: https://github.com/lingxitong/CAMELYON-PLUS-BENCHMARK
 ---
