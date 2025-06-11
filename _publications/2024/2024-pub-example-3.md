@@ -1,32 +1,28 @@
 ---
-title:          Xiaoqing： A Q&A Model for Glaucoma Based on LLMs
-date:           2024-05-01 00:01:00 +0800
+title:          MergeUp-augmented Semi-Weakly Supervised Learning for WSI Classification
+date:           2024-08-23 00:01:00 +0800
 selected:       true
-pub:            "Computers in Biology and Medicine"
+pub:            "Arxiv"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
-pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Journal</span>'
+pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Conference</span>'
 pub_date:       "2024"
 
 abstract: >-
-  We introduce Xiaoqing, an LLM model tailored for glaucoma developed through comparative and experiential experiments, demonstrating it can better serve glaucoma patients and medical research compared to general and clinical AI assistants by providing more informative and readable responses to glaucoma-related questions in Chinese.
+  Recent progress in computational pathology and AI has enhanced WSI classification. However, the high resolution of WSIs and limited manual annotations pose challenges. MIL is a promising weakly supervised learning method for WSI classification. Research shows that pseudo bag augmentation can improve model performance by encouraging diverse data learning. Yet, directly using parent labels can introduce noise through mislabeling. To address this, we introduce SWS-MIL, which uses adaptive pseudo bag augmentation (AdaPse) to label data based on a threshold strategy. Additionally, we employ a "student-teacher" pattern with MergeUp, a feature augmentation technique that merges low-priority bags to enhance inter-category information and data diversity. Experiments on CAMELYON-16, BRACS, and TCGA-LUNG datasets demonstrate that our method outperforms current state-of-the-art approaches, confirming its effectiveness in WSI classification.
   
-cover:          assets/images/covers/xiaoqing.jpg
+cover:          assets/images/covers/SWS_MIL.png
 authors:
-  - Xiaojuan Xue
-  - Deshiwei Zhang
-  - Chengyang Sun
-  - Yiqiao Shi
-  - Rongsheng Wang
-  - Tao Tan
-  - Peng Gao
-  - Sujie Fan
-  - Guangtao Zhai
-  - Menghan Hu
-  - Yue Wu†
+  - Mingxi Ouyang*
+  - Yuqiu Fu*
+  - Renao Yan*
+  - ShanShan Shi
+  - Xitong Ling
+  - Lianghui Zhu†
+  - Yonghong He†
+  - Tian Guan†
 links:
-  Paper: https://www.sciencedirect.com/science/article/pii/S0010482524004839
-  Demo: https://qa.glaucoma-assistant.com/#/qa
-  Cite: assets/bibtex/xue2024xiaoqing.bib
+  Paper: https://arxiv.org/pdf/2408.12825
+
 ---
