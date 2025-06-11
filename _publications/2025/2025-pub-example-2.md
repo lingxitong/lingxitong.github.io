@@ -1,6 +1,6 @@
 ---
-title:          Multimodal Distillation-Driven Ensemble Learning for Long-Tailed Histopathology Whole Slide Images Analysis
-date:           2025-04-20 00:01:00 +0800
+title:          Cross-Modal Prototype Allocation: Unsupervised Slide Representation Learning via Patch-Text Contrast in Computational Pathology
+date:           2025-03-26 00:01:00 +0800
 selected:       true
 pub:            "Arxiv"
 # pub_pre:        "Submitted to "
@@ -9,24 +9,20 @@ pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Co
 pub_date:       "2025"
 
 abstract: >-
-  MIL is crucial in computational pathology for weakly supervised WSI analysis, but long-tailed distributions cause class imbalance issues. We propose an ensemble learning method with shared aggregators and consistency constraints to reduce class imbalance impact. Additionally, we introduce a multimodal distillation framework using pre-trained text encoders to enhance feature extraction. Our method, MDE-MIL, integrates multiple expert branches and achieves superior performance on Camelyon+-LT and PANDA-LT datasets.
+  With the advancement of pathology FMs, WSI representation learning gains attention. Existing methods develop patch feature extractors and aggregation schemes but are task-specific, limiting generalizability. Unsupervised methods focus on visual modality, neglecting textual semantics. We propose ProAlign, a cross-modal unsupervised framework. It uses an LLM to generate descriptive text for WSI prototypes and introduces patch-text contrast. A parameter-free attention aggregation strategy forms unsupervised slide embeddings. Experiments on four datasets show ProAlign outperforms existing frameworks and matches some weakly supervised models.
   
-cover:          assets/images/covers/MDE.png
+cover:          assets/images/covers/proto.png
 authors:
-  Xitong Ling*
-  Yifeng Ping*
-  Jiawen Li*
-  Jing Peng
-  Yuxuan Chen
-  Minxi Ouyang
-  Yizhi Wang
-  Yonghong He
-  Tian Guan
-  Xiaoping Liu†
-  Lianghui Zhu†
+  - Yuxuan Chen*
+  - Jiawen Li*
+  - Jiali Hu*
+  - Xitong Ling
+  - Tian Guan
+  - Anjia Han†
+  - Yonghong He†
   
 links:
-  Paper: https://arxiv.org/pdf/2503.00915?
+  Paper: https://arxiv.org/pdf/2503.20190
 ---
 
 
