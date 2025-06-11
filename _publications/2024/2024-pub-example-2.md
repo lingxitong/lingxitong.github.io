@@ -19,7 +19,7 @@ authors:
   - Junru Cheng
   - Wenting Huang
   - Tian Guan
-  - Jian Guan
+  - Jian Guan†
   - Yonghong He†
 links:
   Paper: https://arxiv.org/pdf/2411.10752
