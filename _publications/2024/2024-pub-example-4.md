@@ -1,6 +1,5 @@
 ---
-title:          	
-Low Bit-Width Zero-Shot Quantization With Soft Feature-Infused Hints for IoT Systems
+title:          Low Bit-Width Zero-Shot Quantization With Soft Feature-Infused Hints for IoT Systems
 date:           2024-12-18 00:01:00 +0800
 selected:       true
 pub:            "IEEE Internet of Things Journal"
