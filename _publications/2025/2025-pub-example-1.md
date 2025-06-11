@@ -1,28 +1,32 @@
 ---
-title:          Unlocking Medical Video Generation by Scaling Granularly-annotated Medical Videos
+title:          Multimodal Distillation-Driven Ensemble Learning for Long-Tailed Histopathology Whole Slide Images Analysis
 date:           2025-04-20 00:01:00 +0800
 selected:       true
-pub:            "arXiv"
+pub:            "Arxiv"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Conference</span>'
 pub_date:       "2025"
 
 abstract: >-
-  We introduce MedVideoCap-55K, the first large-scale, diverse, and caption-rich dataset designed for medical video generation. Comprising over 55,000 curated clips from real-world clinical scenarios, it addresses the critical need for both visual fidelity and medical accuracy in applications such as training, education, and simulation.
+  MIL is crucial in computational pathology for weakly supervised WSI analysis, but long-tailed distributions cause class imbalance issues. We propose an ensemble learning method with shared aggregators and consistency constraints to reduce class imbalance impact. Additionally, we introduce a multimodal distillation framework using pre-trained text encoders to enhance feature extraction. Our method, MDE-MIL, integrates multiple expert branches and achieves superior performance on Camelyon+-LT and PANDA-LT datasets.
   
-cover:          assets/images/covers/medvideocap.png
+cover:          assets/images/covers/MDE.png
 authors:
-  - Rongsheng Wang
-  - Junying Chen
-  - Ke Ji
-  - Zhenyang Cai
-  - Shunian Chen
-  - Yunjin Yang
-  - Benyou Wang†
+  Xitong Ling*
+  Yifeng Ping*
+  Jiawen Li*
+  Jing Peng
+  Yuxuan Chen
+  Minxi Ouyang
+  Yizhi Wang
+  Yonghong He
+  Tian Guan
+  Xiaoping Liu†
+  Lianghui Zhu†
+  
 links:
-  Project: https://freedomintelligence.github.io/MedGen
-  Paper: https://arxiv.org/
-  Code: https://github.com/FreedomIntelligence/MedGen
-  Dataset: https://huggingface.co/datasets/FreedomIntelligence/MedVideoCap-55K
+  Paper: https://arxiv.org/pdf/2503.00915?
 ---
+
+
