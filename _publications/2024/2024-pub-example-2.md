@@ -1,27 +1,27 @@
 ---
-title:          XrayGLM： Summarizing Chest X-ray Reports Using a Large Medical Visual Language Model
-date:           2024-07-17 00:01:00 +0800
+title:          Towards a comprehensive benchmark for pathological lymph node metastasis in breast cancer sections
+date:           2024-11-16 00:01:00 +0800
 selected:       true
-pub:            "RSNA’s Cutting-Edge Research"
+pub:            "Arxiv"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_last:       ' <span class="badge badge-pill badge-custom badge-secondary">Conference</span><span class="badge badge-pill badge-custom badge-success">Oral</span>'
 pub_date:       "2024"
 
 abstract: >-
-  We introduce XrayGLM, a conversational medical visual language model that analyzes and summarizes chest X-rays, aimed at improving domain-specific expertise for radiology tasks compared to general large models.
+  Optical microscopy advancements have enabled whole slide imaging (WSI), facilitating AI-powered computational pathology (CPath). The Camelyon datasets are widely used benchmarks, yet label quality and clinical relevance remain underexplored. In this study, we reprocessed 1,399 WSIs from Camelyon-16 and -17, removing low-quality slides, correcting labels, and adding expert annotations to the test set. We refined the binary cancer task into a four-class classification: negative, ITC, micro-, and macro-metastasis. Using this cleaned dataset, we re-evaluated foundational models and MIL methods, offering a stronger benchmark for AI in histopathology.
   
-cover:          assets/images/covers/xrayglm.png
+cover:          assets/images/covers/camelyon+.png
 authors:
-  - Lin Li
-  - Rongsheng Wang
-  - Qimin Yang
-  - Jiexin Chen
-  - Patrick Cheong-Iao Pang
-  - Yapeng Wang
-  - Ka-Hou Chan
-  - Tao Tan
-  - Jie Ma†
+  - Xitong Ling*
+  - Yuanyuan Lei*
+  - Jiawen Li*
+  - Junru Cheng
+  - Wenting Huang
+  - Tian Guan
+  - Jian Guan
+  - Yonghong He†
 links:
-  Code: https://github.com/WangRongsheng/XrayGLM
+  Paper: https://arxiv.org/pdf/2411.10752
+  Code: https://github.com/lingxitong/CAMELYON-PLUS-BENCHMARK
 ---
