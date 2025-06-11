@@ -1,5 +1,5 @@
 ---
-title:          Cross-Modal Prototype Allocation: Unsupervised Slide Representation Learning via Patch-Text Contrast in Computational Pathology
+title:          Unsupervised Slide Representation Learning via Patch-Text Contrast in Computational Pathology
 date:           2025-03-26 00:01:00 +0800
 selected:       true
 pub:            "Arxiv"
