@@ -13,17 +13,13 @@ abstract: >-
   
 cover:          assets/images/covers/proto.png
 authors:
-  Xitong Ling*
-  Yifeng Ping*
-  Jiawen Li*
-  Jing Peng
-  Yuxuan Chen
-  Minxi Ouyang
-  Yizhi Wang
-  Yonghong He
-  Tian Guan
-  Xiaoping Liu†
-  Lianghui Zhu†
+  - Yuxuan Chen*
+  - Jiawen Li*
+  - Jiali Hu*
+  - Xitong Ling
+  - Tian Guan
+  - Anjia Han†
+  - Yonghong He†
   
 links:
   Paper: https://arxiv.org/pdf/2503.00915?
