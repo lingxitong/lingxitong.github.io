@@ -11,7 +11,7 @@ pub_date:       "2025"
 abstract: >-
   MIL is crucial in computational pathology for weakly supervised WSI analysis, but long-tailed distributions cause class imbalance issues. We propose an ensemble learning method with shared aggregators and consistency constraints to reduce class imbalance impact. Additionally, we introduce a multimodal distillation framework using pre-trained text encoders to enhance feature extraction. Our method, MDE-MIL, integrates multiple expert branches and achieves superior performance on Camelyon+-LT and PANDA-LT datasets.
   
-cover:          assets/images/covers/MDE.png
+cover:          assets/images/covers/proto.png
 authors:
   Xitong Ling*
   Yifeng Ping*
