@@ -1,8 +1,9 @@
 ---
-title:          3MT-Net：A Multi-modal Multi-task Model for Breast Cancer and Pathological Subtype Classification Based on a Multicenter Study
-date:           2024-08-01 00:01:00 +0800
+title:          	
+Low Bit-Width Zero-Shot Quantization With Soft Feature-Infused Hints for IoT Systems
+date:           2024-12-18 00:01:00 +0800
 selected:       true
-pub:            "IEEE Journal of Biomedical and Health Informatics"
+pub:            "IEEE Internet of Things Journal"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 # pub_last:       ' <span class="badge badge-pill badge-custom badge-success">Spotlight</span>'
@@ -10,22 +11,20 @@ pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Journal
 pub_date:       "2024"
 
 abstract: >-
-  This study introduces "Multi-modal Multi-task Network" (3MT-Net), a deep learning architecture using clinical data, B-mode, and color Doppler ultrasound. 3MT-Net employs AM-CapsNet for tumor feature extraction, cross-attention for data fusion, and ensemble learning for optimization. Extensive testing on two datasets showed 3MT-Net outperforms the industrial-grade CAD product S-detect, achieving higher AUC.
+  Quantization enables deep learning on IoT devices by compressing neural networks, but most methods require private training data. Zero-shot quantization (ZSQ) addresses this by quantizing without access to training data. However, low-bit-width ZSQ faces challenges like hard logits matching, unstable feature alignment, and low synthetic data diversity. This article introduces S-ZSQ, a novel ZSQ framework that enhances knowledge transfer and synthetic data generation, enabling low-bit-width quantized networks to learn more effectively from full-precision networks. It achieves significant improvements on CIFAR-10/100 and ImageNet-1k with fewer fine-tuning epochs. For example, it outperforms AdaDFQ by 8.08%/11.16% in top-1 accuracy on 3-bit ResNet-18/ResNet-50 cases.
   
-cover:          assets/images/covers/3mt.png
+cover:          assets/images/covers/ITOJ.png
 authors:
-  - Yaofei Duan
-  - Patrick Cheong-Iao Pang
-  - Ping He
-  - Rongsheng Wang
-  - Yue Sun
-  - Chuntao Liu
-  - Xiaorong Zhang
-  - Xirong Yuan
-  - Pengjie Song
-  - Chan-Tong Lam
-  - Ligang Cui
-  - Tao Tan†
+  - Xinrui Chen*
+  - Yizhi Wang*
+  - Yao Li
+  - Xitong Ling
+  - Mengkui Li
+  - Ruikang Liu
+  - Minxi Ouyang
+  - Kang Zhao
+  - Tian Guan†
+  - Yonghong He†
 links:
-  Paper: https://ieeexplore.ieee.org/abstract/document/10640221
+  Paper: https://ieeexplore.ieee.org/abstract/document/10806769/
 ---
