@@ -20,7 +20,6 @@ authors:
 - Xiaoping Liu†
 - Yonghong He†
 
-  
 links:
   Code: https://github.com/lingxitong/MIL_BASELINE
 ---
