@@ -2,7 +2,7 @@
 title:          Towards a comprehensive benchmark for pathological lymph node metastasis in breast cancer sections
 date:           2024-11-16 00:01:00 +0800
 selected:       true
-pub:            "Arxiv"
+pub:            "Scientific Data"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_last:       ' <span class="badge badge-pill badge-custom badge-dark">Journal</span>'
