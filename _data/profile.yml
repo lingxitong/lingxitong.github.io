@@ -23,7 +23,7 @@ short_bio: >-
   I am Xitong Ling, a Ph.D. student in Biomedical Engineering at Tsinghua University, supervised by Prof. Yonghong He and Prof. Tian Guan. My research focuses on artificial intelligence for optical imaging, spanning computational pathology, optical coherence tomography (OCT), and 3D imaging and vision. Across these areas, I study representation learning, multimodal modeling, and generative models to learn informative representations from imaging data and integrate complementary sources of information. I received my bachelor's degree from Beihang University and my master's degree from Tsinghua University. I welcome collaborations at the intersection of artificial intelligence and optical imaging.
 
 show_portrait: true
-portrait_url: assets/images/photos/self_logo_white.png
+portrait_url: assets/images/photos/self_logo.jpg?v=white-20261111
 portrait_caption: >-
   I am Xitong Ling~
 
