@@ -57,7 +57,8 @@ education:
 
 
 work_experience:
-- name: 生强科技
+- name: TechSqray
+  logo: assets/images/badges/techsqray_logo.png
   position: Algorithm Engineer
   date: 2025 - 2026
   description: Worked on Pathology Foundation Models and Pathology MLLMs.
